@@ -28,7 +28,7 @@ public class Main {
             ArrayList<Integer> gradoVertices = new ArrayList<>();
 
             for (String vertice : almacenamiento) {
-                System.out.println("A cuantos vertices esta conectado "+ vertice +" : ");
+                System.out.println("A cuantos vertices esta conectado '"+ vertice +"' : ");
                 int verticesConectados = sc.nextInt();
                 gradoVertices.add(verticesConectados);
             }
