@@ -6,7 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         ArrayList<String> almacenamiento = new ArrayList<>();
 
-        System.out.println("Ingrese el nombre de cada vertice (Digite "." para finalizar) : ");
+        System.out.println("Ingrese el nombre de cada vertice (Digite '.' para finalizar) : ");
         while (true) {
             String vertexName = sc.nextLine();
 
