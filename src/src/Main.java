@@ -17,18 +17,18 @@ public class Main {
             }
         }
 
-        System.out.println("Todos los vertices estan conectados entre si ('SI/NO')(Escribir respuesta en mayuscula): ");
+        System.out.println("Todos los vértices están conectados entre si ('SI/NO')(Escribir respuesta en mayúscula): ");
         String conectados = sc.next();
 
         if (conectados.equals("SI")) {
-            System.out.println("Cada par de vertices es adyacente");
+            System.out.println("Ningún par de vértices es adyacente");
         }
 
         else {
             ArrayList<Integer> gradoVertices = new ArrayList<>();
 
             for (String vertice : almacenamiento) {
-                System.out.println("A cuantos vertices esta conectado '"+ vertice +"' : ");
+                System.out.println("A cuántos vértices está conectado '"+ vertice +"' : ");
                 int verticesConectados = sc.nextInt();
                 gradoVertices.add(verticesConectados);
             }
